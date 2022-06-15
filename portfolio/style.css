@@ -1,0 +1,144 @@
+body {
+    margin-bottom: 50vh;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.titlewrapL {
+    font-size: 90px;
+}
+
+.maintextL {
+    font-size: 30px;
+}
+
+.titlewrapR {
+   font-size: 90px;
+}
+
+.maintextR {
+    font-size: 30px;
+}
+
+.titlewrapL2 {
+    font-size: 70px;
+}
+
+.titlewrapL3 {
+    font-size: 60px;
+}
+
+.maintextL2 {
+    font-size: 20px;
+}
+
+
+.titlewrapR2 {
+   font-size: 70px;
+}
+
+.titlewrapR3 {
+    font-size: 50px;
+ }
+
+.maintextR2 {
+    font-size: 20px;
+}
+
+#marginR {
+    margin-left: auto;
+}
+
+#marginL2 {
+    margin-left: 30px;
+}
+
+#Maintitle{
+    font-size: 100px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+#subtext {
+    font-size: 25px;
+}
+
+.navbar1 {
+    background-color: white;
+    overflow: auto;
+    transition: all 0.4s;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    display: block;
+    transition: all 0.6s;
+}
+
+.navbar1 .dep1 {
+    font-size: 0;
+}
+
+.navbar1 .dep1 > li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 25px;
+}
+
+.navbar1 .dep1 > li > a{
+    display: block;
+}
+
+.navbar1 .dep1 > li:hover > .dep2 {
+    display: block;
+}
+
+.navbar1 .dep2 {
+    display: none;
+}
+
+.navbar1 .dep2 > li > a{
+    font-size: 23px;
+}
+
+.navbar1 a:hover {
+    background-color: #777;
+    color: white
+}
+
+.navbar1 a.active {
+    background-color: rgb(79, 79, 79);
+    color: white
+}
+
+#text0 {
+    font-size: 40px;
+}
+
+#text1 {
+    font-size: 20px;
+}
+
+#imgscale1:hover {
+    transform: scale( 1.5 );
+    transition: all 0.4s;
+}
