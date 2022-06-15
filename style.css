@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-bottom: 50vh;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+#Maintitle{
+    font-size: 200px;
+}
+
+.navbar1 {
+    background-color: white;
+    overflow: auto;
+    transition: all 0.4s;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    display: block;
+    transition: all 0.6s;
+}
+
+.navbar1 .dep1 {
+    font-size: 0;
+}
+
+.navbar1 .dep1 > li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 25px;
+}
+
+.navbar1 .dep1 > li > a{
+    display: block;
+}
+
+.navbar1 .dep1 > li:hover > .dep2 {
+    display: block;
+}
+
+.navbar1 .dep2 {
+    display: none;
+}
+
+.navbar1 .dep2 > li > a{
+    font-size: 23px;
+}
+
+.navbar1 a:hover {
+    background-color: #777;
+    color: white
+}
+
+.navbar1 a.active {
+    background-color: rgb(79, 79, 79);
+    color: white
+}
+
+#text0 {
+    font-size: 40px;
+}
+
+#text1 {
+    font-size: 20px;
+}
+
+.card {
+    opacity: 0.5;
+    transform: scale( 0.8);
+}
+
+.card:hover {
+    opacity: 1;
+    transform: scale( 1 );
+    transition: all 0.4s;
+}
